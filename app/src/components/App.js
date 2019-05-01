@@ -35,7 +35,7 @@ class App extends React.Component {
 
   handleKeyDown = (event) => {
     if (event.key === 'Enter') {
-      console.log('Enter key pressed');
+      // console.log('Enter key pressed');
       this.findSolutions();
     }
   }
